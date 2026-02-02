@@ -51,15 +51,13 @@ The system works in three major stages:
 
 Follow these steps carefully to run the Face Recognition System on your machine.
 
----
-
 #### Step 1: Install Python
 Make sure Python 3.8 or higher is installed.
 
 Check version:
-
+'''bash
 python --version
-
+'''
 #### Step 2: Clone the Repository
 git clone https://github.com/Harishyadav44/Face_Recognition_GUI.git
 cd Face_Recognition_GUI
@@ -83,9 +81,9 @@ python main.py
    The webcam will open and display the recognized name with confidence.
 
 #### Step 6: Exit
-
+'''
     Press Enter on the keyboard to close the webcam window.
-    
+'''    
 ---
 
 ### 🖥 Application Buttons
