@@ -49,9 +49,43 @@ The system works in three major stages:
 
 ### ▶️ How to Run
 
-#### Step 1: Install dependencies
+Follow these steps carefully to run the Face Recognition System on your machine.
+
+---
+
+#### Step 1: Install Python
+Make sure Python 3.8 or higher is installed.
+
+Check version:
+
+python --version
+
+#### Step 2: Clone the Repository
+git clone https://github.com/Harishyadav44/Face_Recognition_GUI.git
+cd Face_Recognition_GUI
+
+#### Step 3: Install Required Libraries
 pip install -r requirements.txt
 
+#### Step 4: Run the Application
+python main.py
+
+#### Step 5: Use the Application
+
+###### 1. Click Generate Dataset
+   Enter your name and look at the camera.
+   The system will capture around 50 face images.
+
+###### 2. Click Train Model
+   This will train the LBPH face recognition model.
+
+###### 3. Click Detect Face
+   The webcam will open and display the recognized name with confidence.
+
+#### Step 6: Exit
+
+    Press Enter on the keyboard to close the webcam window.
+    
 ---
 
 ### 🖥 Application Buttons
